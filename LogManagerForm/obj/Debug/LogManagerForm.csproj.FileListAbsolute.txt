@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\LogManagerForm\obj\Debug\LogManagerForm.Form1.resources
+E:\workspace\CYBERCOM\CyberCom\LogManagerForm\obj\Debug\LogManagerForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\LogManagerForm\obj\Debug\LogManagerForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\LogManagerForm\obj\Debug\LogManagerForm.csprojResolveAssemblyReference.cache

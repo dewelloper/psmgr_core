@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\JobManagerServiceForm\obj\x86\Debug\JobManagerServiceForm.csprojResolveAssemblyReference.cache
+E:\workspace\CYBERCOM\CyberCom\JobManagerServiceForm\obj\x86\Debug\JobManagerServiceForm.FormMain.resources
+E:\workspace\CYBERCOM\CyberCom\JobManagerServiceForm\obj\x86\Debug\JobManagerServiceForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\JobManagerServiceForm\obj\x86\Debug\JobManagerServiceForm.csproj.GenerateResource.Cache

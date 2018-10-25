@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\InDemoForm\obj\Debug\InDemoForm.FormMain.resources
+E:\workspace\CYBERCOM\CyberCom\InDemoForm\obj\Debug\InDemoForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\InDemoForm\obj\Debug\InDemoForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\InDemoForm\obj\Debug\InDemoForm.csprojResolveAssemblyReference.cache

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.verifone.com.tr/webservices" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.verifone.com.tr/webservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.verifone.com.tr/webservices">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fieldSrvID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSRESULT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="errCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="errDisp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="results" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Logout">
+        <s:complexType />
+      </s:element>
+      <s:element name="LogoutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LogoutResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="termSerialNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTerminalInfoResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalInfoWithID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="okcID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalInfoWithIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTerminalInfoWithIDResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="termSerialNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTerminalHistoryResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalHistoryWithID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="okcID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalHistoryWithIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTerminalHistoryWithIDResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="terminalCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTerminalListResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalUpdates">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dateTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTerminalUpdatesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTerminalUpdatesResult" type="tns:WSRESULT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapIn">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapOut">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTerminalInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTerminalInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalInfoWithIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTerminalInfoWithID" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalInfoWithIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTerminalInfoWithIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetTerminalHistory" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetTerminalHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalHistoryWithIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTerminalHistoryWithID" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalHistoryWithIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTerminalHistoryWithIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTerminalList" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTerminalListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalUpdatesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTerminalUpdates" />
+  </wsdl:message>
+  <wsdl:message name="GetTerminalUpdatesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTerminalUpdatesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="VerifoneFieldServiceSoap">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:input message="tns:LogoutSoapIn" />
+      <wsdl:output message="tns:LogoutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalInfo">
+      <wsdl:input message="tns:GetTerminalInfoSoapIn" />
+      <wsdl:output message="tns:GetTerminalInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalInfoWithID">
+      <wsdl:input message="tns:GetTerminalInfoWithIDSoapIn" />
+      <wsdl:output message="tns:GetTerminalInfoWithIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalHistory">
+      <wsdl:input message="tns:GetTerminalHistorySoapIn" />
+      <wsdl:output message="tns:GetTerminalHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalHistoryWithID">
+      <wsdl:input message="tns:GetTerminalHistoryWithIDSoapIn" />
+      <wsdl:output message="tns:GetTerminalHistoryWithIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalList">
+      <wsdl:input message="tns:GetTerminalListSoapIn" />
+      <wsdl:output message="tns:GetTerminalListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalUpdates">
+      <wsdl:input message="tns:GetTerminalUpdatesSoapIn" />
+      <wsdl:output message="tns:GetTerminalUpdatesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="VerifoneFieldServiceSoap" type="tns:VerifoneFieldServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalInfo">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalInfoWithID">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalInfoWithID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalHistory">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalHistoryWithID">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalHistoryWithID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalList">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalUpdates">
+      <soap:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalUpdates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VerifoneFieldServiceSoap12" type="tns:VerifoneFieldServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/Logout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalInfo">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalInfoWithID">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalInfoWithID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalHistory">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalHistoryWithID">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalHistoryWithID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalList">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerminalUpdates">
+      <soap12:operation soapAction="http://www.verifone.com.tr/webservices/GetTerminalUpdates" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VerifoneFieldService">
+    <wsdl:port name="VerifoneFieldServiceSoap" binding="tns:VerifoneFieldServiceSoap">
+      <soap:address location="http://213.74.174.221/VerifoneFieldService/VerifoneFieldService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VerifoneFieldServiceSoap12" binding="tns:VerifoneFieldServiceSoap12">
+      <soap12:address location="http://213.74.174.221/VerifoneFieldService/VerifoneFieldService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

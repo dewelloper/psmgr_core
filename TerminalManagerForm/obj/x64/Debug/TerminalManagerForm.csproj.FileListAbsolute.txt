@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\TerminalManagerForm\obj\x64\Debug\TerminalManagerForm.FormMain.resources
+E:\workspace\CYBERCOM\CyberCom\TerminalManagerForm\obj\x64\Debug\TerminalManagerForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\TerminalManagerForm\obj\x64\Debug\TerminalManagerForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\TerminalManagerForm\obj\x64\Debug\TerminalManagerForm.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\GMPMessageTest\obj\x64\Debug\GMPMessageTest.csprojResolveAssemblyReference.cache
+E:\workspace\CYBERCOM\CyberCom\GMPMessageTest\obj\x64\Debug\GMPMessageTest.Form1.resources
+E:\workspace\CYBERCOM\CyberCom\GMPMessageTest\obj\x64\Debug\GMPMessageTest.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\GMPMessageTest\obj\x64\Debug\GMPMessageTest.csproj.GenerateResource.Cache

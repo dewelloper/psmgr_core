@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4987D0E3-6620-4DDB-878F-40E9CDCACF13}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MasterSiteManagerCore</RootNamespace>
+    <AssemblyName>MasterSiteManagerCore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Edata.DataValidity">
+      <HintPath>..\Edata.DataValidity\bin\x64\Debug\Edata.DataValidity.dll</HintPath>
+    </Reference>
+    <Reference Include="Edata.TLV">
+      <HintPath>..\Edata.TLV\bin\x64\Debug\Edata.TLV.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GMPBuilder.cs" />
+    <Compile Include="GMPPacketStructureParser.cs" />
+    <Compile Include="MasterSiteCheckUpController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MasterSiteManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Edata.CommonLibrary\Edata.CommonLibrary.csproj">
+      <Project>{85f25127-c38c-4fc0-929f-66626ec8fa1d}</Project>
+      <Name>Edata.CommonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.DataAccessLayer\Edata.DataAccessLayer.csproj">
+      <Project>{c8676b66-b604-49d6-a534-bf868621ce0b}</Project>
+      <Name>Edata.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.DataTypes\Edata.DataTypes.csproj">
+      <Project>{75c68bac-2731-4a56-aca9-73dd1c3c0093}</Project>
+      <Name>Edata.DataTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.EdipV2\Edata.EdipV2.csproj">
+      <Project>{110dc58b-4861-4d75-8b17-4c057e96bac1}</Project>
+      <Name>Edata.EdipV2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.Edip\Edata.Edip.csproj">
+      <Project>{a4f80249-286f-4649-95ef-2ada1cc4ea34}</Project>
+      <Name>Edata.Edip</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.GMP\Edata.GMP.csproj">
+      <Project>{bda88e8f-1f83-45d7-a06b-a24c8b639282}</Project>
+      <Name>Edata.GMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.Protocol\Edata.Protocol.csproj">
+      <Project>{22aacc53-349b-4b37-879a-75916b6bd87f}</Project>
+      <Name>Edata.Protocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.ServicePingController\Edata.ServicePingController.csproj">
+      <Project>{55a74f98-9b84-4382-91c9-a720165ff47d}</Project>
+      <Name>Edata.ServicePingController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.SiteManager\Edata.MasterSiteManager.csproj">
+      <Project>{c748cf97-b2c7-41b1-9341-57a34e018307}</Project>
+      <Name>Edata.MasterSiteManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.SystemInformation\Edata.SystemInformation.csproj">
+      <Project>{a405b47c-5d09-48ad-aef8-e99f715aad82}</Project>
+      <Name>Edata.SystemInformation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.TcpIpClient\Edata.TcpIpClient.csproj">
+      <Project>{5a760440-975c-4732-b7ac-7971c6e63deb}</Project>
+      <Name>Edata.TcpIpClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edata.TcpIpSocket\Edata.TcpIpServer.csproj">
+      <Project>{d6097464-0c8d-401e-9c37-d409e90d682c}</Project>
+      <Name>Edata.TcpIpServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

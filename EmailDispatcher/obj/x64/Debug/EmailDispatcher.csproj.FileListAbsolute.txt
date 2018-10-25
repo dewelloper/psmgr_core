@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcher\obj\x64\Debug\EmailDispatcher.csprojResolveAssemblyReference.cache
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcher\obj\x64\Debug\EmailDispatcher.ProjectInstaller.resources
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcher\obj\x64\Debug\EmailDispatcher.ServiceMain.resources
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcher\obj\x64\Debug\EmailDispatcher.csproj.GenerateResource.Cache

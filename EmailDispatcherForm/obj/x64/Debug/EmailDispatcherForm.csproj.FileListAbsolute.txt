@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcherForm\obj\x64\Debug\EmailDispatcherForm.FormMain.resources
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcherForm\obj\x64\Debug\EmailDispatcherForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcherForm\obj\x64\Debug\EmailDispatcherForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\EmailDispatcherForm\obj\x64\Debug\EmailDispatcherForm.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\GMPListenerForm\obj\x64\Debug\GMPListenerForm.csprojResolveAssemblyReference.cache
+E:\workspace\CYBERCOM\CyberCom\GMPListenerForm\obj\x64\Debug\GMPListenerForm.FormMain.resources
+E:\workspace\CYBERCOM\CyberCom\GMPListenerForm\obj\x64\Debug\GMPListenerForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\GMPListenerForm\obj\x64\Debug\GMPListenerForm.csproj.GenerateResource.Cache

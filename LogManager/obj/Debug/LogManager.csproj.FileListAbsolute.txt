@@ -1,0 +1,3 @@
+E:\workspace\CYBERCOM\CyberCom\LogManager\obj\Debug\LogManager.ProjectInstaller.resources
+E:\workspace\CYBERCOM\CyberCom\LogManager\obj\Debug\LogManager.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\LogManager\obj\Debug\LogManager.csprojResolveAssemblyReference.cache

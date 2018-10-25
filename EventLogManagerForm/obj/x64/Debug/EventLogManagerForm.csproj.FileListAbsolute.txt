@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\EventLogManagerForm\obj\x64\Debug\EventLogManagerForm.FormMain.resources
+E:\workspace\CYBERCOM\CyberCom\EventLogManagerForm\obj\x64\Debug\EventLogManagerForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\EventLogManagerForm\obj\x64\Debug\EventLogManagerForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\EventLogManagerForm\obj\x64\Debug\EventLogManagerForm.csprojResolveAssemblyReference.cache

@@ -1,0 +1,3 @@
+E:\workspace\CYBERCOM\CyberCom\GMPListener\obj\x64\Debug\GMPListener.csprojResolveAssemblyReference.cache
+E:\workspace\CYBERCOM\CyberCom\GMPListener\obj\x64\Debug\GMPListener.ProjectInstaller.resources
+E:\workspace\CYBERCOM\CyberCom\GMPListener\obj\x64\Debug\GMPListener.csproj.GenerateResource.Cache

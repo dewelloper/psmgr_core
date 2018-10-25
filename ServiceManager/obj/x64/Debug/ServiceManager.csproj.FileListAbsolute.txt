@@ -1,0 +1,8 @@
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\bin\x64\Debug\ServiceManager.exe.config
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\bin\x64\Debug\ServiceManager.exe
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\bin\x64\Debug\ServiceManager.pdb
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\obj\x64\Debug\ServiceManager.Form1.resources
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\obj\x64\Debug\ServiceManager.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\obj\x64\Debug\ServiceManager.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\obj\x64\Debug\ServiceManager.exe
+E:\workspace\CYBERCOM\CyberCom\ServiceManager\obj\x64\Debug\ServiceManager.pdb

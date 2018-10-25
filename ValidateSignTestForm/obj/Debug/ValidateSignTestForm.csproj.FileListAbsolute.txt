@@ -1,0 +1,15 @@
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\ValidateSignTestForm.exe.config
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\ValidateSignTestForm.exe
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\ValidateSignTestForm.pdb
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\Edata.CommonLibrary.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\Newtonsoft.Json.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\RestSharp.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\Renci.SshNet.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\Edata.CommonLibrary.pdb
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\bin\Debug\RestSharp.xml
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\obj\Debug\ValidateSignTestForm.csprojResolveAssemblyReference.cache
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\obj\Debug\ValidateSignTestForm.Form1.resources
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\obj\Debug\ValidateSignTestForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\obj\Debug\ValidateSignTestForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\obj\Debug\ValidateSignTestForm.exe
+E:\workspace\CYBERCOM\CyberCom\ValidateSignTestForm\obj\Debug\ValidateSignTestForm.pdb

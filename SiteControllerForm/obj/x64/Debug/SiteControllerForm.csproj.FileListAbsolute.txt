@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\SiteControllerForm\obj\x64\Debug\SiteControllerForm.Form1.resources
+E:\workspace\CYBERCOM\CyberCom\SiteControllerForm\obj\x64\Debug\SiteControllerForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\SiteControllerForm\obj\x64\Debug\SiteControllerForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\SiteControllerForm\obj\x64\Debug\SiteControllerForm.csprojResolveAssemblyReference.cache

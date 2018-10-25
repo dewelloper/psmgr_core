@@ -1,0 +1,9 @@
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\bin\Debug\ValidateSignService.dll.config
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\bin\Debug\ValidateSignService.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\bin\Debug\ValidateSignService.pdb
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\bin\Debug\Edata.CommonLibrary.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\bin\Debug\Renci.SshNet.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\bin\Debug\Edata.CommonLibrary.pdb
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\obj\Debug\ValidateSignService.csprojResolveAssemblyReference.cache
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\obj\Debug\ValidateSignService.dll
+E:\workspace\CYBERCOM\CyberCom\ValidateSignService\obj\Debug\ValidateSignService.pdb

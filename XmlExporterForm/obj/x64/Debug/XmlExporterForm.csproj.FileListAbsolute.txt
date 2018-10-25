@@ -1,0 +1,4 @@
+E:\workspace\CYBERCOM\CyberCom\XmlExporterForm\obj\x64\Debug\XmlExporterForm.FormMain.resources
+E:\workspace\CYBERCOM\CyberCom\XmlExporterForm\obj\x64\Debug\XmlExporterForm.Properties.Resources.resources
+E:\workspace\CYBERCOM\CyberCom\XmlExporterForm\obj\x64\Debug\XmlExporterForm.csproj.GenerateResource.Cache
+E:\workspace\CYBERCOM\CyberCom\XmlExporterForm\obj\x64\Debug\XmlExporterForm.csprojResolveAssemblyReference.cache
